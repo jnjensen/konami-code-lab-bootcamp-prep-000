@@ -18,13 +18,13 @@ function init() {
     const key = event.key;
     
     if (key === codes[index]){
-      index ++;
-      console.log(index);
       
       if (index === codes.length){
         alert("Hurray!");
         
         index = 0;
+      } else {
+        index ++;
       }
     } else {
       index = 0;
