@@ -23,6 +23,8 @@ function init() {
         alert("Hurray!");
         
         index = 0;
+        return
+        
       } else {
         index ++;
       }
